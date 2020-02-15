@@ -94,19 +94,24 @@ a.active,a:hover{
 @media (max-width: 1062px) {
   label.logo{
     font-size: 30px;
-    padding-left: 50px;
+    padding-left: 0px;
   }
   nav ul li a{
     font-size: 16px;
   }
+
+@media (max-width: 568px) {
+  label.logo{
+    font-size: 20px;
+    padding: 0px;
+  }
+
 }
 @media (max-width: 992px) {
   .checkbtn{
     display: block;
   }
-  label.logo{
-  font-size: 35px;
-  }
+ 
   ul{
     position: absolute;
     width: 100%;
@@ -135,15 +140,6 @@ a.active,a:hover{
 }
 
 
-@media (max-width: 568px) {
-    label.logo{
-  color: white;
-  font-size: 20px;
-  line-height: 80px;
-  padding: 0px;
-  font-weight: bold;
-    }
-}
 /* ------Main-Section------ */
 
 div .position-static {
@@ -151,14 +147,11 @@ div .position-static {
 }
 
 .sign-up {
-background-image: linear-gradient(to bottom, #f5f5f5b3 0%, rgba(125, 185, 232, 0) 100%);
+background-image: linear-gradient(to bottom, #f5f5f5b3 0%, rgba(125, 185, 232, 0));
 background-color: transparent;
 }
 
-.jumbotron h1 {
-    color: #E1774B;
-    font-weight: 500;
-}
+
 
 .lead {
     font-weight: 700;
@@ -182,23 +175,9 @@ background-color: transparent;
 }
 
 /*--- feature --- */
-@media (max-width: 1024px) {
-    div.feature-container{
-    padding-top: 50px;
-   }
-}
 
-
-@media (max-width: 568px) {
-    div.feature-container{
-    padding-top: 275px;
-   }
-}
-
-@media (max-width: 320px) {
-     div.feature-container{
-   padding-top: 63px;
-   }
+.feature-container {
+    padding-top: 30px;
 }
 
 .feature-container h2 {
@@ -209,8 +188,7 @@ background-color: transparent;
 
 .card-bg-color {
     background-image: linear-gradient(to bottom, #f5f5f5f2 0%, rgba(125, 185, 232, 0) 100%);
-    background-color: transparent;
-    padding: 0 30px 0 30px;
+    background-color: transparent;  
 }
 
 .card-body h5 {
@@ -251,11 +229,7 @@ p .card-text {
     height: 100vh;
 }
 
-@media (max-width: 568px) {
-#about {
-    padding-top:690px;
-    }
-}
+
 
 .about-info {
     margin-top: 70px;
