@@ -15,7 +15,7 @@
 body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    min-height: 100%;
+ 
     background-size: cover;
 }
 
@@ -26,6 +26,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     height: calc(100vh - 80px);
+    
     }
 
 
@@ -84,7 +85,7 @@ a.active,a:hover{
   color: #fff;
   float: right;
   line-height: 80px;
-  margin-right: 40px;
+  margin-right: 30px;
   cursor: pointer;
   display: none;
 }
@@ -100,6 +101,12 @@ a.active,a:hover{
     font-size: 16px;
   }
 
+@media (max-width: 1024px) {
+  .checkbtn{
+    display: block;
+  }
+}
+
 @media (max-width: 568px) {
   label.logo{
     font-size: 20px;
@@ -107,10 +114,7 @@ a.active,a:hover{
   }
 
 }
-@media (max-width: 992px) {
-  .checkbtn{
-    display: block;
-  }
+
  
   ul{
     position: absolute;
@@ -146,12 +150,28 @@ div .position-static {
     position: static;
 }
 
-.sign-up {
-background-image: linear-gradient(to bottom, #f5f5f5b3 0%, rgba(125, 185, 232, 0));
+div .sign-up {
+background-image: linear-gradient(to bottom, #f5f5f5b3 0%, rgba(125, 185, 232, 0) 100%);
 background-color: transparent;
 }
 
 
+.display-4 {
+    color: #E1774B;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+@media (min-width: 768px) {
+    .display-4 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+    .jumbotron {
+    margin-top: 80px;
+}
+}
 
 .lead {
     font-weight: 700;
@@ -177,17 +197,12 @@ background-color: transparent;
 /*--- feature --- */
 
 .feature-container {
-    padding-top: 30px;
+    padding-top: 0px;
 }
 
-.feature-container h2 {
-    color: teal;
-    font-weight: bold;
-    text-transform: uppercase;
-}
 
 .card-bg-color {
-    background-image: linear-gradient(to bottom, #f5f5f5f2 0%, rgba(125, 185, 232, 0) 100%);
+    background-image: linear-gradient(to bottom, #ffffff 0%, rgba(0, 150, 136, 0.11) 100%);
     background-color: transparent;  
 }
 
@@ -225,16 +240,39 @@ p .card-text {
 
 /* About Section */
 
-#about {
-    height: 100vh;
+.heading-color-orange h2 {
+    color: #E1774B;
+    font-weight: bold;
+    text-transform: uppercase;
+    
 }
-
-
 
 .about-info {
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
+@media (max-width: 1062px) {
+.about-info {
+    margin-top: 15px;
+}
+}
+.block-divider-teal {
+    background-color: teal;
+    height: 2px;
+    width: 125px;
+    margin: auto;
+}
+
+/* class-section */
+
+.table {
+    color: #fafafa;
+    background-color: teal;
+}
+
+.table thead th {
+    border-bottom: 2px solid #E1774B;
+}
 
 /* ---------------footer-------------- */
 

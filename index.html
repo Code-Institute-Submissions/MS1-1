@@ -20,10 +20,11 @@
 			<label for="check" class="checkbtn">
             <i class="fas fa-bars"></i></label>
 
-			<label class="logo"> <a href="#">Shivananda Yoga Studio</a></label>
+			<label class="logo"> <a href="#">Shivananda Yoga Studio</a> </label>
+
 			<ul>
-				<li><a class="active" href="#">Home</a></li>
-				<li><a href="#">About</a></li>
+				<li><a class="active" href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
 				<li><a href="#">Classes</a></li>
 				<li><a href="#">Events</a></li>
 
@@ -37,97 +38,163 @@
 	<!-------------------------Main body------------------->
 	<main>
 		<!-- Callout Section -->
-		<section class="callout-container">
+		<section id="home" class="callout-container">
 			<div class="container-fluid d-flex justify-content-center">
 				<div class="row">
 					<div class="col-12 position-static">
-						<section class="sign-up">
-							<h1 class=>Your wellbeing is our Success!</h1>
+						<section class="jumbotron sign-up">
+							<h1 class="display-4">Your wellbeing is our Success!</h1>
 							<p class="lead">Sign up Online to our yoga classes and receive 20% discount on our
 								Monthly/Quarterly & Annual Membership.
 								<br>
 								<small>Terms & Conditions may apply.</small>
-								<hr class="my-4">
+								<hr class="my-4 block-divider-teal">
 								<a class="btn btn--orange btn-lg" href="#" role="button">Sign Up!</a>
 							</p>
 						</section>
 					</div>
 				</div>
 			</div>
-			<!-- Features -->
-			<div class="container feature-container d-none d-sm-block">
-				<h2>Features</h2>
-				<div class="row">
-					<div class="col-sm-12 col-lg-4 card shadow-lg card-bg-color position-static">
-						<div class="card-body">
-							<h5 class="card-title"> <i class="fas fa-user-friends"></i> One to One Yoga</h5>
-							<hr class="block-divider">
-							<p class="card-text">Our private yoga class offers instruction that is tailored to
-								suit the individual<p><a class="btn btn-sm btn--teal" href="">Read More</a></p>
-							</p>
-						</div>
-					</div>
-					<div class="col-sm-12 col-lg-4 card shadow-lg card-bg-color position-static">
-						<div class="card-body">
-							<h5 class="card-title"><i class="fas fa-hot-tub"></i> Private Hot-tubs</h5>
-							<hr class="block-divider">
-							<p class="card-text">Our studio offers built-in hot-tubs on site exclusively for the use of
-								our members<p><a class="btn btn-sm btn--teal" href="">Read More</a></p>
-							</p>
-						</div>
-					</div>
-					<div class="col-sm-12 col-lg-4 card shadow-lg card-bg-color position-static">
-						<div class="card-body">
-							<h5 class="card-title"><i class="fas fa-shower"></i> Private showers</h5>
-							<hr class="block-divider">
-							<p class="card-text">With our private showers you dont have to worry about geting out of the
-								studio drenched on sweat<p><a class="btn btn-sm btn--teal" href="">Read More</a></p>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
 		</section>
 	</main>
 
-
-
-	<section id="about">
-		<div class="container-fluid about-bg-img">
-			<h2>ABOUT</h2>
-			<div class="row">
-				<div class="col-sm-12 col-md-12 col-lg-6"> 
-					<p class="about-info">Shivananda yoga studio is much more than just yoga classes. Every event, every connection, every stretch
-						transpires from the founding desire to make yoga inclusive, accessible and empowering for
-						everyone. We strive to promote positive body image and connectedness within the
-						community. And above all, we believe everyone can benefit from the power of connection that yoga
-						teaches.
+	<!-- feature section -->
+	<div class="container-fluid my-4 feature-container">
+		<div class="heading-color-orange">
+			<h2>Features</h2>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-lg-3 card text-center shadow-lg card-bg-color ml-auto mr-auto">
+				<div class="card-body">
+					<h5 class="card-title"> <i class="fas fa-user-friends"></i> One to One Yoga</h5>
+					<hr class="block-divider">
+					<p class="card-text">Our private yoga class offers instruction that is tailored to
+						suit the individual<p><a class="btn btn-sm btn--teal" href="">Read More</a></p>
 					</p>
-				</div> 
-				<div class="col-sm-12 col-md-8 col-lg-6">
-					 <img src="assets/images/group-about-img.jpg" class="rounded img-fluid" alt="..."> 
-                </div>
-
+				</div>
 			</div>
-            <div class="row">
-				<div class="col-sm-12 col-md-8 col-lg-6">
-					 <img src="assets/images/about-img-bw.jpg" class="rounded ml-auto img-fluid" alt="..."> 
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-6"> 
-					<p class="about-info">Shivananda yoga studio is much more than just yoga classes. Every event, every connection, every stretch
+			<div class="col-sm-12 col-lg-3 card text-center shadow-lg card-bg-color mr-auto">
+				<div class="card-body">
+					<h5 class="card-title"><i class="fas fa-hot-tub"></i> Private Hot-tubs</h5>
+					<hr class="block-divider">
+					<p class="card-text">Our studio offers built-in hot-tubs on site exclusively for the use of
+						our members<p><a class="btn btn-sm btn--teal" href="">Read More</a></p>
+					</p>
+				</div>
+			</div>
+			<div class="col-sm-12 col-lg-3 card text-center shadow-lg card-bg-color mr-auto">
+				<div class="card-body">
+					<h5 class="card-title"><i class="fas fa-shower"></i> Private showers</h5>
+					<hr class="block-divider">
+					<p class="card-text">With our private showers you dont have to worry about geting out of the
+						studio drenched on sweat<p><a class="btn btn-sm btn--teal" href="">Read More</a></p>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- About Section -->
+	<section id="about">
+		<div class="container my-4">
+			<div class="heading-color-orange">
+				<h2>About</h2>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-6">
+					<p class="about-info">Shivananda yoga studio is much more than just yoga classes. Every event,
+						every connection, every stretch
 						transpires from the founding desire to make yoga inclusive, accessible and empowering for
 						everyone. We strive to promote positive body image and connectedness within the
-						community. And above all, we believe everyone can benefit from the power of connection that yoga
+						community. And above all, we believe everyone can benefit from the power of connection that
+						yoga
 						teaches.
+						<hr class="block-divider-teal">
 					</p>
-				</div> 
-				
-            </div>
+				</div>
+				<div class="col-sm-12 col-md-8 col-lg-6">
+					<img src="assets/images/group-about-img.jpg" class="rounded img-fluid mr-auto d-block" alt="...">
+                </div>
+				</div>
 
-			
-        </div>
-	
-    </section>
+				<div class="row">
+					<div class="col-sm-12 col-md-8 col-lg-6">
+						<img src="assets/images/about-img-bw.jpg" class="rounded img-fluid ml-auto d-block" alt="...">
+                    </div>
+						<div class="col-sm-12 col-md-12 col-lg-6">
+							<p class="about-info">Shivananda yoga studio is much more than just yoga classes. Every
+								event, every connection, every stretch
+								transpires from the founding desire to make yoga inclusive, accessible and
+								empowering for
+								everyone. We strive to promote positive body image and connectedness within the
+								community. And above all, we believe everyone can benefit from the power of
+								connection that yoga
+								teaches.
+								<hr class="block-divider-teal">
+							</p>
+						</div>
+
+					</div>
+
+				</div>
+
+	</section>
+
+	<!-- Classes Section -->
+	<section id="classes">
+		<div class="container my-4">
+			<div class="heading-color-orange">
+				<h2>CLASSES & TIMINGS</h2>
+				<p class="">****Classes run 7 days a week****</p>
+			</div>
+			<div class="row">
+				<div class="col">
+					<table class="table table-bordered">
+						<thead>
+							<tr>
+								<th scope="col">TIMES</th>
+								<th scope="col">CLASS</th>
+								<th scope="col">DESCRIPTION</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">6 - 9 AM</th>
+								<td>Hatha Yoga</td>
+								<td>physical stretching and breathing suitable for all</td>
+							</tr>
+							<tr>
+								<th scope="row">4 - 6 PM</th>
+								<td>Iyengar Yoga</td>
+								<td>focus on alignment as well as detailed and precise movements. Intermediate and
+									Advanced only.</td>
+							</tr>
+							<tr>
+								<th scope="row">6 - 9 pm</th>
+								<td>Kundalini Yoga</td>
+								<td>Kundalini yoga practice is equal parts spiritual and physical. Suitable for all.
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-4">
+					<img src="..." alt="..." class="img-thumbnail">
+                </div>
+				<div class="col-4">
+					<img src="..." alt="..." class="img-thumbnail">
+                </div>
+				<div class="col-4">
+					<img src="..." alt="..." class="img-thumbnail">
+                </div>
+            </div>
+		</div>
+
+</section>
 
 
 
