@@ -15,11 +15,9 @@
 body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
- 
-    background-size: cover;
 }
 
-.callout-container {
+  .callout-container {
     background: url('../images/yoga-studio.jpg')no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -37,6 +35,7 @@ nav{
   height: 80px;
   width: 100%;
 }
+
 label.logo{
   color: white;
   font-size: 35px;
@@ -151,8 +150,9 @@ div .position-static {
 }
 
 div .sign-up {
-background-image: linear-gradient(to bottom, #f5f5f5b3 0%, rgba(125, 185, 232, 0) 100%);
-background-color: transparent;
+    background-image: linear-gradient(to bottom, #f5ffff 0%, rgba(125, 185, 232, 0) 100%);
+    background-color: transparent;
+    padding-top: 2px;
 }
 
 
@@ -193,6 +193,7 @@ background-color: transparent;
     color: white;
     box-shadow: none;
 }
+
 
 /*--- feature --- */
 
@@ -260,7 +261,7 @@ p .card-text {
     background-color: teal;
     height: 2px;
     width: 125px;
-    margin: auto;
+    margin: 5px auto;
 }
 
 /* class-section */
@@ -272,6 +273,82 @@ p .card-text {
 
 .table thead th {
     border-bottom: 2px solid #E1774B;
+    }
+
+/* Yoga teachers */
+
+.circle-container {
+   width: 180px;
+   height: 180px;
+   padding: 10px;
+   border-style: solid;
+   border-color: #fafafa;
+   border-width: 1px;
+   border-radius: 50%;
+   margin: 0 auto;
+   background-color: #E1774B;
+}
+
+.circle-cover-bg1 {
+    background: url('../images/yoga-teacher1.jpg')no-repeat center;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.circle-cover-bg2 {
+    background: url('../images/yoga-teacher2.jpg')no-repeat center;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.circle-cover-bg3 {
+    background: url('../images/yoga-teacher3.jpg')no-repeat center;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.circle-cover-hover:hover {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+.teacher-info {
+    background-color: teal; 
+    position: relative;
+    max-width: 300px;
+    height: auto;
+    margin: 35px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 30%;
+    color: #fafafa;
+    border: 6px solid #E1774B;
+}
+
+.teacher-info:after {
+    background-color: teal; 
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -25px;
+    content: '';
+    transform: rotate(-45deg);
+    margin-bottom: -25px;
+    border-top-right-radius: 10px;
+    border-top: 6px solid #E1774B;
+    border-right: 6px solid #E1774B;
+    }
+
+.name-color-orange {
+    color: #E1774B;
+    font-weight: bold;
 }
 
 /* ---------------footer-------------- */
