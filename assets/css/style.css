@@ -241,6 +241,10 @@ p .card-text {
 
 /* About Section */
 
+#about {
+    padding-top: 43px;
+}   
+ 
 .heading-color-orange h2 {
     color: #E1774B;
     font-weight: bold;
@@ -265,6 +269,11 @@ p .card-text {
 }
 
 /* class-section */
+
+#classes {
+    padding-top: 43px;
+}   
+ 
 
 .table {
     color: #fafafa;
@@ -327,7 +336,7 @@ p .card-text {
     box-sizing: border-box;
     border-radius: 30%;
     color: #fafafa;
-    border: 6px solid #E1774B;
+    border: 6px solid #E1774b;
 }
 
 .teacher-info:after {
@@ -351,6 +360,51 @@ p .card-text {
     font-weight: bold;
 }
 
+/* Events Section */
+
+.event-bg-color {
+    background-image: linear-gradient(to bottom, #ffffff 0%, rgba(0, 150, 136, 0.11) 100%);
+    background-color: transparent;  
+}
+
+.timeline-item {
+    padding: 90px 0px 0px 100px;
+    position: relative;
+    color: #E1774B;
+    border-left: 3px solid;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 50px;
+    top: 60px;
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.timeline-item:after {
+    width: 20px;
+    height: 20px;
+    display: block;
+    top: 63px;
+    position: absolute;
+    left: -11px;
+    border-radius: 20px;
+    content: '';
+    background: teal;
+}
+
+div.timeline-item a h5{
+    color: teal;
+}
+
+footer {
+    margin-top: 95px;
+}
 /* ---------------footer-------------- */
 
 
