@@ -32,6 +32,17 @@ body {
     background-color: teal;
 }
 
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-weight: 700;
+}
+
+div ul.navbar-nav li {
+    font-weight: 600;
+    color: #fff;
+}
+
+
 /* ------Main-Section------ */
 
 div .position-static {
@@ -251,6 +262,10 @@ p .card-text {
 
 /* Events Section */
 
+.heading-color-orange.margin-top h2 {
+    margin-top: 54px;
+}
+
 .event-bg-color {
     background-image: linear-gradient(to bottom, #ffffff 0%, rgba(0, 150, 136, 0.11) 100%);
     background-color: transparent;  
@@ -291,9 +306,38 @@ div.timeline-item a h5{
     color: teal;
 }
 
+
+/* footer */
+
 footer {
     margin-top: 80px;
+    background-color: teal;
 }
-/* ---------------footer-------------- */
 
+div ul.social-networks li {
+    display: inline-flex;
+    padding: 20px;
+}
 
+div ul.social-networks li a {
+    color:#ffffff;
+}
+
+div .font-white {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+div .font-white h4 {
+    color: #E1774B;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+button.btn.btn--orange.btn-subscribe {
+    margin-top: 10px;
+}
+
+div.copyright-space small {
+    color: #ffffff;
+}
