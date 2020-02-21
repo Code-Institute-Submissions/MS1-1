@@ -43,7 +43,7 @@ div ul.navbar-nav li {
 }
 
 
-/* ------Main-Section------ */
+/* --Main-Section-- */
 
 div .position-static {
     position: static;
@@ -95,7 +95,7 @@ div .sign-up {
 }
 
 
-/*--- feature --- */
+/*-- feature -- */
 
 .feature-container {
     padding-top: 0px;
@@ -139,7 +139,7 @@ p .card-text {
     box-shadow: none;
 }
 
-/* About Section */
+/*-- About Section --*/
 
 #about {
     padding-top: 50px;
@@ -154,6 +154,7 @@ p .card-text {
 
 .about-info {
     margin-top: 30px;
+    text-shadow: 20px 20px 20px rgb(233, 181, 117);
 }
 
 @media (max-width: 1062px) {
@@ -184,11 +185,18 @@ p .card-text {
     border-bottom: 2px solid #E1774B;
     }
 
-/* Yoga teachers */
+div p.timetable-note {
+    color: teal;
+    text-decoration-color: #E1774B;
+    font-weight: 600;
+    text-shadow: 2px 2px 8px #E1774B;
+}
 
+/* Yoga teachers */
+/* Source: (circle container) CI tutorial  */
 .circle-container {
    width: 180px;
-   height: 180px;
+   height: 180px;                       
    padding: 10px;
    border-style: solid;
    border-color: #fafafa;
@@ -219,6 +227,8 @@ p .card-text {
 
 }
 
+
+/* Source: (circle container) CI tutorial  */
 .circle-cover-hover:hover {
     -webkit-transform: scale(1.1);
 	transform: scale(1.1);
@@ -238,7 +248,7 @@ p .card-text {
     color: #fafafa;
     border: 6px solid #E1774b;
 }
-
+/* Source: (after div container) stack overflow  */
 .teacher-info:after {
     background-color: teal; 
     position: absolute;
@@ -270,7 +280,7 @@ p .card-text {
     background-image: linear-gradient(to bottom, #ffffff 0%, rgba(0, 150, 136, 0.11) 100%);
     background-color: transparent;  
 }
-
+/* Source: (timeline Item) CI tutorial  */
 .timeline-item {
     padding: 90px 0px 0px 100px;
     position: relative;
