@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap:100,200,300,400,500,600,700');
 
-
-
-
-
 *{
   padding: 0;
   margin: 0;
@@ -44,10 +40,6 @@ div ul.navbar-nav li {
 
 
 /* --Main-Section-- */
-
-div .position-static {
-    position: static;
-}
 
 div .sign-up {
     background-image: linear-gradient(to bottom, #f5ffff 0%, rgba(125, 185, 232, 0) 100%);
@@ -100,7 +92,6 @@ div .sign-up {
 .feature-container {
     padding-top: 0px;
 }
-
 
 .card-bg-color {
     background-image: linear-gradient(to bottom, #ffffff 0%, rgba(0, 150, 136, 0.11) 100%);
@@ -175,7 +166,6 @@ p .card-text {
     padding-top: 43px;
 }   
  
-
 .table {
     color: #fafafa;
     background-color: teal;
@@ -324,6 +314,10 @@ footer {
     background-color: teal;
 }
 
+div a i {
+    color: #fff;
+}
+
 div ul.social-networks li {
     display: inline-flex;
     padding: 20px;
@@ -350,4 +344,8 @@ button.btn.btn--orange.btn-subscribe {
 
 div.copyright-space small {
     color: #ffffff;
+}
+
+.modal-body {
+    text-align: left;
 }

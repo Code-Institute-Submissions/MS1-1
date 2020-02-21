@@ -49,17 +49,17 @@
 		<div id="home" class="callout-container">
 			<div class="container-fluid d-flex justify-content-center">
 				<div class="row">
-					<div class="col-12 position-static">
-						<section class="jumbotron sign-up">                         
+					<div class="col-12">
+						<section class="jumbotron sign-up">
 							<h2 class="display-4">Your wellbeing is our Success!</h2>
-                            <hr class="my-4 block-divider-teal">
+							<hr class="my-4 block-divider-teal">
 							<p class="lead">Sign up Online to our yoga classes and receive 20% discount on our
 								Monthly/Quarterly & Annual Membership.</p>
 							<br>
-							<a class="btn btn--orange btn-lg" href="#" role="button">Sign Up!
-								<span class="sr-only">(SignUp Button)</span></a><br>
-                                <small>Terms & Conditions may apply.</small>
-							</section>
+							<button class="btn btn--orange btn-lg" data-toggle="modal" data-target="#signUpModal" role="button">Sign Up!
+								<span class="sr-only">(SignUp Button)</span></button><br>
+							<small>Terms & Conditions may apply.</small>
+						</section>
 					</div>
 				</div>
 			</div>
@@ -110,8 +110,8 @@
 	</div>
 
 	<!-- *******About Section****** -->
-	
-    <section id="about">
+
+	<section id="about">
 		<div class="heading-color-orange">
 			<h2>ABOUT</h2>
 		</div>
@@ -322,15 +322,16 @@
 					<form action="#" method="post">
 						<input type="email" class="form-control" id="#" placeholder="name@example.com">
                     </form>
-						<button type="button" class="btn btn--orange btn-subscribe btn-lg">
+						<button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn--orange btn-subscribe btn-lg">
                         <span class="sr-only">(Subscribe button)</span>Subscribe</button>
 
 				</div>
 
 				<div class="col-sm-12 col-md-4 col-lg-4 font-white">
 					<h4>Contact Us</h4>
-					<p>4 Privet Drive, Little Whinging, Surrey, UK <br><br>
-                        Phone No: 555-1212 <br><br> Email: contact-us@shivanandayogastudio.co.uk</p>
+					<a href="https://www.google.com/maps/place/4+Privet+Drive/@51.6911949,-0.4191804,17z/data=!3m1!4b1!4m5!3m4!1s0x4876402fabd5cc11:0xf1355f57a03a3cba!8m2!3d51.6911916!4d-0.4169917" target="_blank">
+                   <i class="fas fa-map-marked-alt fa-lg"></i></a><p class="address">4 Privet Drive, Little Whinging, Surrey, UK</p><br>
+                    <p>Phone No: 555-1212 <br>Email: contact-us@shivanandayogastudio.co.uk</p>
 				</div>
 
 				<div class="col-sm-12 col-md-4 col-lg-4 font-white">
@@ -359,9 +360,72 @@
 		</section>
 	</footer>
 	<!--footer End-->
-   <!-- Signup modal -->
 
+	<!-- Signup modal -->
+	<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Sign Up to Shivananda Yoga Studio Membership</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+						<label class="form-check-label" for="inlineCheckbox1">Monthly £99 </label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+						<label class="form-check-label" for="inlineCheckbox2">Quaterly £199</label>
+					</div>
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+						<label class="form-check-label" for="inlineCheckbox3">Annually £499</label>
+					</div>
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+							<div class="form-group">
+								<label for="repeatPassword">Repeat Password</label>
+								<input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                            </div>
+								<button type="submit" class="btn btn-success" data-dismiss="modal">Submit</button>
+					</form>
+				</div>
 
+			</div>
+		</div>
+	</div>
+
+	<!-- Subscribe Modal -->
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					Thank you for your subscription!
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <!-- Javascript -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
