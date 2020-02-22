@@ -7,12 +7,25 @@ This is a website for an imaginary Yoga Studio. The website includes information
 A demo of the website can be found [here](https://ktm28.github.io/MS1/).
 
 ## UX
-The primary focus of the website is to interact online with its potential client and the existing client. In the consideration of the overall design, my main goal was to make all the information and the features of the website easily accessible to any online visitor. The use of colours in the website primarily the teal was carefully considered in view of expressing the theme of healing and calming vibe of the yoga studio whilst the partial use of light orange was to ensure its alignment with the authentic yogic culture. 
-Likewise, the home page on the website has an attractive background image of the group of young people doing yoga. This to ensure that the young visitors on the website feel attracted to join the membership. Highlighted over it is the motto of the studio with a member’s signup button emphasising exclusive online discount to persuade potential members to Sign up for membership.
-Below the homepage, the users can see features of the studio presented in a card with eye-catching icons and message. Also, I have made a page exclusively dedicated to the type of yoga classes and its schedule keeping in mind that it would be of huge importance to both the existing and potential members. Users curious about the instructors on the scroll can also find a brief information corresponding with a thumbnail size rounded image of the yoga teachers in the studio. There’s also an event page which highlights the timeline and location with its upcoming retreat organized by the studio. The location in the event section are links to an external wiki site designed to ensure the user can gather some information regarding the location. Below it, the users arrive at the footer of the website where there are options for signup to newsletter targeted for both potential and existing members. The footer also consists of address and other contact details of the studio for the users to get in touch with the studio. And, finally, the social media icons are there to gather followers and to promote and share the online presence of the yoga studio.
 
-### View Wireframe: 
+The primary focus of the website is to interact online with its potential client and the existing client. In the consideration of the overall design, my main goal was to make all the information and the features of the website easily accessible to any online visitor. The use of colours in the website primarily the teal was carefully considered in view of expressing the theme of healing and calming vibe of the yoga studio whilst the partial use of light orange was to ensure its alignment with the authentic yogic culture. 
+
+
+
+•	In the homepage, the users can see an image that of a studio and signup button with the studio motto. 
+•	The Feature are presented in a individual card with eye-catching icons and message. Also, there is a page exclusively dedicated to the type of yoga classes and its schedule keeping in mind that it would be of huge importance to both the existing and potential members. 
+•	Users curious about the instructors on the scroll can also find a brief information corresponding with a thumbnail size rounded image of the yoga teachers in the studio. 
+•	The event page which highlights the timeline and location with its upcoming retreat organized by the studio. 
+•	The location in the event section are links to an external wiki site designed to ensure the user can gather some information regarding the location.
+•	The footer of the website have options for signup to newsletter targeted for both potential and existing members. 
+•	The footer also consists of address and other contact details of the studio for the users to get in touch with the studio. 
+•	Finally, the social media icons are there to gather followers and to promote and share the online presence of the yoga studio.
+
+
+ View Wireframe: 
 [Here](https://github.com/KTM28/MS1/tree/master/wireframe).
+
+
 
 
 ## Technologies
