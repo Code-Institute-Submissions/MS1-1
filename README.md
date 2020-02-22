@@ -12,17 +12,24 @@ The primary focus of the website is to interact online with its potential client
 
 
 
-•	In the homepage, the users can see an image that of a studio and signup button with the studio motto. 
-•	The Feature are presented in a individual card with eye-catching icons and message. Also, there is a page exclusively dedicated to the type of yoga classes and its schedule keeping in mind that it would be of huge importance to both the existing and potential members. 
-•	Users curious about the instructors on the scroll can also find a brief information corresponding with a thumbnail size rounded image of the yoga teachers in the studio. 
-•	The event page which highlights the timeline and location with its upcoming retreat organized by the studio. 
-•	The location in the event section are links to an external wiki site designed to ensure the user can gather some information regarding the location.
-•	The footer of the website have options for signup to newsletter targeted for both potential and existing members. 
-•	The footer also consists of address and other contact details of the studio for the users to get in touch with the studio. 
-•	Finally, the social media icons are there to gather followers and to promote and share the online presence of the yoga studio.
+*	In the homepage, the users can see an image that of a studio and signup button with the studio motto. 
+
+*	The Feature are presented in a individual card with eye-catching icons and message. Also, there is a page exclusively dedicated to the type of yoga classes and its schedule keeping in mind that it would be of huge importance to both the existing and potential members. 
+
+*	Users curious about the instructors on the scroll can also find a brief information corresponding with a thumbnail size rounded image of the yoga teachers in the studio. 
+
+*	The event page which highlights the timeline and location with its upcoming retreat organized by the studio. 
+
+*	The location in the event section are links to an external wiki site designed to ensure the user can gather some information regarding the location.
+
+*	The footer of the website have options for signup to newsletter targeted for both potential and existing members. 
+
+*	The footer also consists of address and other contact details of the studio for the users to get in touch with the studio. 
+
+*	Finally, the social media icons are there to gather followers and to promote and share the online presence of the yoga studio.
 
 
- View Wireframe: 
+ `View Wireframe:` 
 [Here](https://github.com/KTM28/MS1/tree/master/wireframe).
 
 
@@ -68,7 +75,7 @@ The paragraph content in the About section and teacher info have been borrowed f
 
 
 ## Media
-The About section image on the website has been taken from:
+The About section image on the website has been taken from
 [here](https://www.freepik.com/)
 Other images on the website have been taken from [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/).
 
