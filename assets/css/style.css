@@ -1,351 +1,300 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap:100,200,300,400,500,600,700');
-
-*{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
  
-body {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+ *{
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+     list-style: none;
+     box-sizing: border-box;
+}
+ body {
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+}
+ .callout-container {
+     background: url('../images/yoga-studio.jpg')no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     height:100vh;
+     margin-top: 50px;
 }
 
-  .callout-container {
-    background: url('../images/yoga-studio.jpg')no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height:100vh;
-    margin-top: 50px;
-    }
 
 /* Navbar */
-.bg-teal {
-    background-color: teal;
+ .bg-teal {
+     background-color: teal;
 }
-
-.navbar-dark .navbar-brand {
-    color: #fff;
-    font-weight: 700;
+ .navbar-dark .navbar-brand {
+     color: #fff;
+     font-weight: 700;
 }
-
-div ul.navbar-nav li {
-    font-weight: 600;
-    color: #fff;
+ div ul.navbar-nav li {
+     font-weight: 600;
+     color: #fff;
 }
 
 
 /* --Main-Section-- */
-
-div .sign-up {
-    background-image: linear-gradient(to bottom, #f5ffff 0%, rgba(125, 185, 232, 0) 100%);
-    background-color: transparent;
-    padding-top: 2px;
+ div .sign-up {
+     background-image: linear-gradient(to bottom, #f5ffff 0%, rgba(125, 185, 232, 0) 100%);
+     background-color: transparent;
+     padding-top: 2px;
 }
-
-
-.display-4 {
-    color: #E1774B;
-    font-size: 2.5rem;
-    font-weight: bold;
-    line-height: 1.2;
+ .display-4 {
+     color: #E1774B;
+     font-size: 2.5rem;
+     font-weight: bold;
+     line-height: 1.2;
 }
-@media (min-width: 768px) {
-    .display-4 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    line-height: 1.2;
+ @media (min-width: 768px) {
+     .display-4 {
+         font-size: 3.5rem;
+         font-weight: bold;
+         line-height: 1.2;
+    }
+     .jumbotron {
+         margin-top: 80px;
+    }
 }
-    .jumbotron {
-    margin-top: 80px;
+ .lead {
+     font-weight: 700;
 }
+ .btn--orange {
+     font-weight: bold;
+     color: white;
+     background-color: #E1774B;
+     border-color: #E1774B;
 }
-
-.lead {
-    font-weight: 700;
-}
-
-.btn--orange {
-    font-weight: bold;
-    color: white;
-    background-color: #E1774B;
-    border-color: #E1774B;
-}
-
-.btn--orange:hover,
-.btn--orange:active,
-.btn--orange:focus,
-.btn--orange:active:focus {
-    background-color: rgb(233, 95, 36);
-    border-color: rgb(233, 95, 36);
-    color: white;
-    box-shadow: none;
+ .btn--orange:hover, .btn--orange:active, .btn--orange:focus, .btn--orange:active:focus {
+     background-color: rgb(233, 95, 36);
+     border-color: rgb(233, 95, 36);
+     color: white;
+     box-shadow: none;
 }
 
 
 /*-- feature -- */
-
-.feature-container {
-    padding-top: 0px;
+ .feature-container {
+     padding-top: 0px;
+}
+ .card-bg-color {
+     background-image: linear-gradient(to bottom, #ffffff 0%, rgba(0, 150, 136, 0.11) 100%);
+     background-color: transparent;
+}
+ .card-body h5 {
+     color: teal;
+     font-weight: bold;
+}
+ .block-divider {
+     background-color: #E1774B;
+     height: 2px;
+     width: 60px;
+     margin: auto;
+}
+ p .card-text {
+     font-weight: 500;
+}
+ .btn--teal {
+     color: white;
+     background-color: teal;
+     border-color: teal;
+}
+ .btn--teal:hover, .btn--teal:active, .btn--teal:focus, .btn--teal:active:focus {
+     color: white;
+     background-color: rgb(5, 175, 175);
+     border-color: rgb(5, 175, 175);
+     box-shadow: none;
 }
 
-.card-bg-color {
-    background-image: linear-gradient(to bottom, #ffffff 0%, rgba(0, 150, 136, 0.11) 100%);
-    background-color: transparent;  
-}
-
-.card-body h5 {
-    color: teal;
-    font-weight: bold;
-}
-
-.block-divider {
-    background-color: #E1774B;
-    height: 2px;
-    width: 60px;
-    margin: auto;
-}
-
-p .card-text {
-    font-weight: 500;
-}
-
-.btn--teal {
-    color: white;
-    background-color: teal;
-    border-color: teal;
-}
-
-.btn--teal:hover,
-.btn--teal:active,
-.btn--teal:focus,
-.btn--teal:active:focus {
-    color: white;
-    background-color: rgb(5, 175, 175);
-    border-color: rgb(5, 175, 175);
-    box-shadow: none;
-}
 
 /*-- About Section --*/
-
-#about {
-    padding-top: 50px;
-}   
- 
-.heading-color-orange h2 {
-    color: #E1774B;
-    font-weight: bold;
-    text-transform: uppercase;
-    
+ #about {
+     padding-top: 50px;
+}
+ .heading-color-orange h2 {
+     color: #E1774B;
+     font-weight: bold;
+     text-transform: uppercase;
+}
+ .about-info {
+     margin-top: 30px;
+     text-shadow: 20px 20px 20px rgb(233, 181, 117);
+}
+ @media (max-width: 1062px) {
+     .about-info {
+         margin-top: 15px;
+    }
+}
+ .block-divider-teal {
+     background-color: teal;
+     height: 2px;
+     width: 125px;
+     margin: 5px auto;
 }
 
-.about-info {
-    margin-top: 30px;
-    text-shadow: 20px 20px 20px rgb(233, 181, 117);
-}
-
-@media (max-width: 1062px) {
-.about-info {
-    margin-top: 15px;
-}
-}
-.block-divider-teal {
-    background-color: teal;
-    height: 2px;
-    width: 125px;
-    margin: 5px auto;
-}
 
 /* class-section */
-
-#classes {
-    padding-top: 43px;
-}   
- 
-.table {
-    color: #fafafa;
-    background-color: teal;
+ #classes {
+     padding-top: 43px;
+}
+ .table {
+     color: #fafafa;
+     background-color: teal;
+}
+ .table thead th {
+     border-bottom: 2px solid #E1774B;
+}
+ div p.timetable-note {
+     color: teal;
+     text-decoration-color: #E1774B;
+     font-weight: 600;
+     text-shadow: 2px 2px 8px #E1774B;
 }
 
-.table thead th {
-    border-bottom: 2px solid #E1774B;
-    }
-
-div p.timetable-note {
-    color: teal;
-    text-decoration-color: #E1774B;
-    font-weight: 600;
-    text-shadow: 2px 2px 8px #E1774B;
-}
 
 /* Yoga teachers */
-/* Source: (circle container) CI tutorial  */
-.circle-container {
-   width: 180px;
-   height: 180px;                       
-   padding: 10px;
-   border-style: solid;
-   border-color: #fafafa;
-   border-width: 1px;
-   border-radius: 50%;
-   margin: 0 auto;
-   background-color: #E1774B;
+/* Source: (circle container) CI tutorial */
+ .circle-container {
+     width: 180px;
+     height: 180px;
+     padding: 10px;
+     border-style: solid;
+     border-color: #fafafa;
+     border-width: 1px;
+     border-radius: 50%;
+     margin: 0 auto;
+     background-color: #E1774B;
+}
+ .circle-cover-bg1 {
+     background: url('../images/yoga-teacher1.jpg')no-repeat center;
+     height: 100%;
+     border-radius: 50%;
+}
+ .circle-cover-bg2 {
+     background: url('../images/yoga-teacher2.jpg')no-repeat center;
+     height: 100%;
+     border-radius: 50%;
+}
+ .circle-cover-bg3 {
+     background: url('../images/yoga-teacher3.jpg')no-repeat center;
+     height: 100%;
+     border-radius: 50%;
+}
+/* Source: (circle container) CI tutorial */
+ .circle-cover-hover:hover {
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+     -webkit-transition: .5s ease-in-out;
+     transition: .5s ease-in-out;
+}
+ .teacher-info {
+     background-color: teal;
+     position: relative;
+     max-width: 300px;
+     height: auto;
+     margin: 35px auto;
+     padding: 30px;
+     box-sizing: border-box;
+     border-radius: 30%;
+     color: #fafafa;
+     border: 6px solid #E1774b;
+}
+/* Source: (after div container) stack overflow */
+ .teacher-info:after {
+     background-color: teal;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     bottom: 100%;
+     left: 50%;
+     margin-left: -25px;
+     content: '';
+     transform: rotate(-45deg);
+     margin-bottom: -25px;
+     border-top-right-radius: 10px;
+     border-top: 6px solid #E1774B;
+     border-right: 6px solid #E1774B;
+}
+ .name-color-orange {
+     color: #E1774B;
+     font-weight: bold;
 }
 
-.circle-cover-bg1 {
-    background: url('../images/yoga-teacher1.jpg')no-repeat center;
-    height: 100%;
-    border-radius: 50%;
-
-}
-
-.circle-cover-bg2 {
-    background: url('../images/yoga-teacher2.jpg')no-repeat center;
-    height: 100%;
-    border-radius: 50%;
-
-}
-
-.circle-cover-bg3 {
-    background: url('../images/yoga-teacher3.jpg')no-repeat center;
-    height: 100%;
-    border-radius: 50%;
-
-}
-
-
-/* Source: (circle container) CI tutorial  */
-.circle-cover-hover:hover {
-    -webkit-transform: scale(1.1);
-	transform: scale(1.1);
-	-webkit-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
-}
-
-.teacher-info {
-    background-color: teal; 
-    position: relative;
-    max-width: 300px;
-    height: auto;
-    margin: 35px auto;
-    padding: 30px;
-    box-sizing: border-box;
-    border-radius: 30%;
-    color: #fafafa;
-    border: 6px solid #E1774b;
-}
-/* Source: (after div container) stack overflow  */
-.teacher-info:after {
-    background-color: teal; 
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -25px;
-    content: '';
-    transform: rotate(-45deg);
-    margin-bottom: -25px;
-    border-top-right-radius: 10px;
-    border-top: 6px solid #E1774B;
-    border-right: 6px solid #E1774B;
-    }
-
-.name-color-orange {
-    color: #E1774B;
-    font-weight: bold;
-}
 
 /* Events Section */
-
-.heading-color-orange.margin-top h2 {
-    margin-top: 54px;
+ .heading-color-orange.margin-top h2 {
+     margin-top: 54px;
 }
-
-.event-bg-color {
-    background-image: linear-gradient(to bottom, #ffffff 0%, rgba(0, 150, 136, 0.11) 100%);
-    background-color: transparent;  
+ .event-bg-color {
+     background-image: linear-gradient(to bottom, #ffffff 0%, rgba(0, 150, 136, 0.11) 100%);
+     background-color: transparent;
 }
-/* Source: (timeline Item) CI tutorial  */
-.timeline-item {
-    padding: 90px 0px 0px 100px;
-    position: relative;
-    color: #E1774B;
-    border-left: 3px solid;
+/* Source: (timeline Item) CI tutorial */
+ .timeline-item {
+     padding: 90px 0px 0px 100px;
+     position: relative;
+     color: #E1774B;
+     border-left: 3px solid;
 }
-
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 50px;
-    top: 60px;
-    display: block;
-    font-weight: 500;
-    font-size: 20px;
-    padding: 0px;
-    margin: 0px;
+ .timeline-item:before {
+     content: attr(data-dates);
+     position: absolute;
+     left: 50px;
+     top: 60px;
+     display: block;
+     font-weight: 500;
+     font-size: 20px;
+     padding: 0px;
+     margin: 0px;
 }
-
-.timeline-item:after {
-    width: 20px;
-    height: 20px;
-    display: block;
-    top: 63px;
-    position: absolute;
-    left: -11px;
-    border-radius: 20px;
-    content: '';
-    background: teal;
+ .timeline-item:after {
+     width: 20px;
+     height: 20px;
+     display: block;
+     top: 63px;
+     position: absolute;
+     left: -11px;
+     border-radius: 20px;
+     content: '';
+     background: teal;
 }
-
-div.timeline-item a h5{
-    color: teal;
+ div.timeline-item a h5{
+     color: teal;
 }
 
 
 /* footer */
-
-footer {
-    margin-top: 80px;
-    background-color: teal;
+ footer {
+     margin-top: 80px;
+     background-color: teal;
 }
-
-div a i {
-    color: #fff;
+ div a i {
+     color: #fff;
 }
-
-div ul.social-networks li {
-    display: inline-flex;
-    padding: 20px;
+ div ul.social-networks li {
+     display: inline-flex;
+     padding: 20px;
 }
-
-div ul.social-networks li a {
-    color:#ffffff;
+ div ul.social-networks li a {
+     color:#ffffff;
 }
-
-div .font-white {
-    color: #ffffff;
-    font-weight: 400;
+ div .font-white {
+     color: #ffffff;
+     font-weight: 400;
 }
-
-div .font-white h4 {
-    color: #E1774B;
-    font-weight: 500;
-    margin-top: 5px;
+ div .font-white h4 {
+     color: #E1774B;
+     font-weight: 500;
+     margin-top: 5px;
 }
-
-button.btn.btn--orange.btn-subscribe {
-    margin-top: 10px;
+ button.btn.btn--orange.btn-subscribe {
+     margin-top: 10px;
 }
-
-div.copyright-space small {
-    color: #ffffff;
+ div.copyright-space small {
+     color: #ffffff;
 }
-
-.modal-body {
-    text-align: left;
+ .modal-body {
+     text-align: left;
 }

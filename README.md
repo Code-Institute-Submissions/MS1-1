@@ -80,7 +80,8 @@ The existing and the potential member user story achieved the intended outcome o
 * In the home page, potential members have immediate access to signing up for membership. The About page provides information regarding the studio and its community message. The classes section provides detailed information on the types of yoga taught in the studio and their schedules. Corresponding to that is a section that represents teachers’ information with their images. The event section has a location icon and name which links to external wiki sites and are implemented with target _blank for ease of user navigation. Both signup and subscribe button are linked to its respective modals. The modal for the signup button has a form where the user can choose the type of membership they want. 
 * The links in the website have been manually tested and point correctly to the site it is related with. 
 * The testing of the HTML and CSS element has been done using online validators. 
-* The website has also been tested and runs in a various different browser such as Chrome, Edge, Safari and Firefox to check its compatibility. 
+* The website has also been manually tested and runs in a various different browser such as Chrome, Edge, Safari and Firefox to check its compatibility. 
+* Online cross browser testing tool was employed to test in 70 different browsers (http://browsershots.org/)
 * Different screen sizes in chrome developer tool have been tested to ensure the website is also compatible with all the popular responsive sizes.
 
 
