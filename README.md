@@ -101,9 +101,11 @@ The paragraph content in the About section and teacher info have been borrowed f
 
 
 ## Media
-The About section image on the website has been taken from
-[here](https://www.freepik.com/)
-Other images on the website have been taken from [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/).
+* The About section image on the website has been taken from
+[here](https://www.freepik.com/) Designed by prostooleh / Freepik
+* The background image in the home page has been taken from
+[here](https://www.freepik.com/) Designed by yanalya / Freepik
+* Other images on the website have been taken from [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/).
 
 
 
