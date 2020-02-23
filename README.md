@@ -94,7 +94,7 @@ To run locally, clone this repository to your choice of the editor by pasting `(
 
 
 ## Content
-Some of the content on the website is partially borrowed. Below you will find the link to the respective site where the information has been borrowed from.
+Some of the content on the website are partially borrowed. Below you will find the link to the respective site where the information has been borrowed from.
 The paragraph content in the About section and teacher info have been borrowed from [Here](http://www.yogabuzz.org/).
 
 
