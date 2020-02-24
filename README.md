@@ -84,7 +84,7 @@ The existing and the potential member user story achieved the intended outcome o
 * Online cross browser testing tool was employed to test in 70 different browsers (http://browsershots.org/)
 * Different screen sizes in chrome developer tool have been tested to ensure the website is also compatible with all the popular responsive sizes.
 
-
+* ![W3C CSS validation approved](http://jigsaw.w3.org/css-validator/images/vcss-blue)
 
 ## Deployment
 This site is hosted using GitHub Pages, deployed directly from the master branch. The site will automatically update upon new commits to the master branch. To ensure the site to deploy correctly the landing page is appropriately named `index.html`.
