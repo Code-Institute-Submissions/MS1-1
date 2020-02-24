@@ -65,11 +65,10 @@
      font-weight: bold;
      color: white;
      background-color: #E1774B;
-     border-color: #E1774B;
+     
 }
  .btn--orange:hover, .btn--orange:active, .btn--orange:focus, .btn--orange:active:focus {
      background-color: rgb(233, 95, 36);
-     border-color: rgb(233, 95, 36);
      color: white;
      box-shadow: none;
 }
@@ -99,12 +98,10 @@
  .btn--teal {
      color: white;
      background-color: teal;
-     border-color: teal;
 }
  .btn--teal:hover, .btn--teal:active, .btn--teal:focus, .btn--teal:active:focus {
      color: white;
      background-color: rgb(5, 175, 175);
-     border-color: rgb(5, 175, 175);
      box-shadow: none;
 }
 
