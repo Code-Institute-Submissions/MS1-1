@@ -50,8 +50,8 @@ The primary focus of the website is to interact online with its potential client
 ### Existing Features
 
 *	The page is fully responsive. 
-*	The navbar is fixed on top to allows user to jump into any section of the site without having to scroll on top of the page. 
-*	The navbar also collapses at or below the medium-size screens this allows usere in the medium and smaller size screens to access menu items with ease. 
+*	The navbar is fixed on top to allow user to jump into any section of the site without having to scroll on top of the page. 
+*	The navbar also collapses at or below the medium-size screens this allows user in the medium and smaller size screens to access menu items with ease. 
 *	The menu items in the navbar are linked to its respective page this ensures the user are taken into right place when navigating within the site. 
 *	The home page has a large signup button for the ease of use which is linked to the modal signup form allowing users to choose the type of membership they want together with the prices. 
 *	All the elements on the page are consistent and adaptable with the respective devices screen size some taking full width of the viewport as necessary. 
@@ -61,8 +61,8 @@ The primary focus of the website is to interact online with its potential client
 *	The address section in the footer has an icon that is linked with the respective address in the google map. 
 *	Below the address is the phone number and email address of the studio allowing the user to instantly contact the studio if they wish to. 
 *	The media icons are linked to their respective site. 
-*	All the links to an external site when clicked will open a new browser tab in consideration with the ease of navigation between the site for the user. 
-*	Most of the images and icons on the page are screen-reader friendly to facilitate the ease of use for visually impaired people.
+*	All the links to an external site when clicked will open a new browser tab for the ease of navigation between the site for the user. 
+*	Most of the images and icons on the page are screen-reader friendly.
 
 
 
